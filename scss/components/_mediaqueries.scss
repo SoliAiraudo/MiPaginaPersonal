@@ -1,0 +1,20 @@
+@media screen and (max-width: 600px) {
+    .ocultar-div{
+    display:none;
+    }
+    }
+
+    .pie{
+        text-align: left;
+        padding: 40px auto;
+        border-top: solid white 1px;
+        grid-area: footer;
+        width: 100%;
+        background-color: black;
+    }
+
+    .pie__icon--sm{
+        padding: 20px 20px 20px 0px;
+        width: 15%;
+    }
+   

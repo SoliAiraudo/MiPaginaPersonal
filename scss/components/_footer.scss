@@ -1,0 +1,25 @@
+.pie{
+    text-align: left;
+    padding: 40px 50px;
+    grid-area: footer;
+    width: 100%;
+    background-color: black;
+}
+
+.pie__icon--sm{
+    padding: 20px 20px 20px 0px;
+    width: 5%;
+}
+
+.pie__arrow--sm{
+    position: absolute;
+    right: 40px;
+}
+
+.pie__titulo--md{
+    font-size: 1,9rem;
+    line-height: 2rem;
+    font-weight: 400;
+    padding: 0px;
+    margin: 0px;
+}

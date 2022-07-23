@@ -1,0 +1,117 @@
+#h1_titulos{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 600;
+    padding: 0px 20px 10px 10px;
+    margin: 4px 20px 4px 30px;     
+} 
+
+#h2_subtitulos{
+   color: rgb(0, 0, 0);
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 1.2rem;
+   line-height: 1,5rem;
+   font-weight: 600;
+   padding: 10px 0px 5px 0px;
+   margin: 0px 0px;    
+}
+
+h3{
+   color:white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 1.4rem;
+   line-height: 1,8rem;
+   font-weight: 400;  
+}
+
+#h4{
+   color: black;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 0.8rem;
+   line-height: 1.4rem;
+   font-weight: 400; 
+   margin: 0 0 10px 0; 
+}
+
+#alineacion_titulo_costado{
+   Display: flex;
+}
+
+#titulo_costado{
+   grid-area: barra;
+   background-color: white;
+   margin: 20px 0 50px 0;
+   margin-left: auto;
+   padding: 20px;
+   position:fixed;
+   size: 40%;
+}
+
+#presentacion__text--grey{
+   color:white;
+   padding: 20px 10px 20px 10px;
+   margin: 5px 20px 5px 30px;
+   color:rgb(0, 0, 0);
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 1,9rem;
+   line-height: 2rem;
+   font-weight: 400; 
+}
+
+.gallery{
+   margin: 30px 20px 10px 30px;
+}
+
+/* Estilos de las listas*/
+.box_list{
+   padding: 20px 10px 20px 50px;
+   margin: 10px 50px;
+}
+
+#titulo{
+   display: inline-block;
+   display: flex;
+   justify-content: space-between;
+   list-style:none;
+   padding: 15px 5px 15px 40px;
+   border-top: solid black 1px;
+   border-bottom: solid black 1px;
+   font-size: 1rem;
+   font-weight: 600;
+}
+#box_desplegable{
+   list-style:none;
+   text-decoration:none;
+   display: inline-block;
+   display: flex;
+   color:white;
+   padding: 0px 70px;
+   margin: 0px auto;
+   color:rgb(0, 0, 0);
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 1,9rem;
+   line-height: 2rem;
+   font-weight: 400; 
+   align-items: none;
+}    
+
+/*----transformaciones----*/
+
+
+.transform:hover{
+    transform: translate(50px);
+    cursor: pointer;
+    transition: transform 1s;
+}
+
+#scale:hover{
+    transform: scale(1.5);
+}
+
+.translate:hover{
+    transform: translate(100px);
+    cursor: pointer;
+    transition: transform 1s;
+}   
