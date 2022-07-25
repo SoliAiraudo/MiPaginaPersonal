@@ -26,8 +26,10 @@
     }
 
     .link_hover:hover{
+        &hover {
         color: rgb(255, 255, 255);
         font-weight: 600;
+    }
         } 
 
 .hamburguesa{
