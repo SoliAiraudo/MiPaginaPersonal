@@ -32,12 +32,35 @@ html {
   font-weight: 400;
   padding: 0px 30px; }
 
-.link_hover:hover {
+.link_hover:hoverhover {
   color: white;
   font-weight: 600; }
 
 .hamburguesa {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+
+.pie {
+  text-align: left;
+  padding: 40px 50px;
+  grid-area: footer;
+  width: 100%;
+  background-color: black; }
+
+.pie__icon--sm {
+  padding: 20px 20px 20px 0px;
+  left: 40px;
+  width: 15%; }
+
+.pie__arrow--sm {
+  position: absolute;
+  right: 40px; }
+
+.pie__titulo--md {
+  font-size: 1,9rem;
+  line-height: 2rem;
+  font-weight: 400;
+  padding: 0px;
+  margin: 0px; }
 
 #h1_titulos {
   color: black;
@@ -128,43 +151,27 @@ h3 {
   font-weight: 400;
   align-items: none; }
 
-.pie {
-  text-align: left;
-  padding: 40px 50px;
-  grid-area: footer;
-  width: 100%;
-  background-color: black; }
+.btn_base, .btn_inactive {
+  color: black;
+  background: white;
+  padding: 20px 20px;
+  margin: 30px 0;
+  height: 30px;
+  border-style: solid;
+  border-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .btn_base:hover, .btn_inactive:hover {
+    color: grey;
+    border-color: grey;
+    line-height: 2rem;
+    cursor: pointer; }
 
-.pie__icon--sm {
-  padding: 20px 20px 20px 0px;
-  width: 5%; }
-
-.pie__arrow--sm {
-  position: absolute;
-  right: 40px; }
-
-.pie__titulo--md {
-  font-size: 1,9rem;
-  line-height: 2rem;
-  font-weight: 400;
-  padding: 0px;
-  margin: 0px; }
-
-@media screen and (max-width: 600px) {
-  .ocultar-div {
-    display: none; } }
-
-.pie {
-  text-align: left;
-  padding: 40px auto;
-  border-top: solid white 1px;
-  grid-area: footer;
-  width: 100%;
-  background-color: black; }
-
-.pie__icon--sm {
-  padding: 20px 20px 20px 0px;
-  width: 15%; }
+.btn_inactive {
+  color: grey;
+  border-color: grey;
+  border-radius: 6px; }
 
 /*----transformaciones----*/
 .transform:hover {
@@ -179,3 +186,25 @@ h3 {
   transform: translate(100px);
   cursor: pointer;
   transition: transform 1s; }
+
+@media screen and (max-width: 600px) {
+  .ocultar-div {
+    display: none; } }
+
+/*@media screen and (max-width: 600px) {    
+    .pie{
+        text-align: left;
+        padding: 40px auto;
+        border-top: solid white 1px;
+        grid-area: footer;
+        width: 100%;
+        background-color: black;
+    }
+    }
+
+@media screen and (max-width: 600px) {
+    .pie__icon--sm{
+        padding: 20px 20px 20px 0px;
+        width: 0%;
+    }
+    }*/
