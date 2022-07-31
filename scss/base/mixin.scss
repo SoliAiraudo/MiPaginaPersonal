@@ -1,0 +1,26 @@
+@mixin texto($fontSize, $lineHeight, $fontWeight, $color){
+    font-size: $fontSize;
+    line-height: $lineHeight;
+    color: $color;
+    font-weight: $fontWeight;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;   
+ }
+ 
+ .p{
+    @include texto(1.9rem, 2rem, 400, black);
+    background-color: purple;
+ }
+
+ @mixin d-flex($justify, $align, $direction){
+   display: flex;
+   justify-content: $justify;
+   align-items: $align;
+   flex-direction: $direction;
+ }
+ 
+ .box{
+   @include d-flex(center, flex-end, column);
+   background: black;
+   border: solid 2px black;
+ }
