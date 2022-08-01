@@ -9,7 +9,7 @@
  
  .p{
     @include texto(1.9rem, 2rem, 400, black);
-    background-color: purple;
+    background-color: rgb(255, 255, 255);
  }
 
  @mixin d-flex($justify, $align, $direction){

@@ -1,6 +1,6 @@
 .pie{
     text-align: left;
-    padding: 40px 50px;
+    padding: 40px 90px;
     grid-area: footer;
     width: 100%;
     background-color: black;
@@ -15,6 +15,7 @@
 .pie__arrow--sm{
     position: absolute;
     right: 40px;
+    padding: 20px 20px 20px 0px;
 }
 
 .pie__titulo--md{

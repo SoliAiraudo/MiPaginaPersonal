@@ -7,5 +7,5 @@ $paleta: (
 );
 
 #navbar-darck{
-    background-color: map-get($map:$paleta, $key:'tres');
+    background-color: map-get($map:$paleta, $key:'uno');
 }
