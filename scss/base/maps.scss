@@ -1,0 +1,11 @@
+$paleta: (
+    'uno': black,
+    'dos': white,
+    'tres': yellow,
+    'cuatro': pink,
+    'cinco': blue,
+);
+
+#navbar-darck{
+    background-color: map-get($map:$paleta, $key:'tres');
+}

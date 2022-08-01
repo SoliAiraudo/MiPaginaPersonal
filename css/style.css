@@ -48,6 +48,9 @@ html {
   color: grey;
   border-color: grey; }
 
+#navbar-darck {
+  background-color: yellow; }
+
 #botonera img {
   width: 100px;
   margin: 10px 50px 10px 0; }
