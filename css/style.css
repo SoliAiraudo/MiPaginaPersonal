@@ -27,6 +27,16 @@ html {
   background: black;
   border: solid 2px black; }
 
+.h2_galeria {
+  line-height: 1.5rem;
+  padding: 0px 10px 0px 0px;
+  margin: 20px 0px 5px 0px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: black; }
+
 .btn_base, .btn_inactive {
   color: black;
   background: white;
@@ -37,7 +47,9 @@ html {
   border-color: black;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  text-decoration: none;
+  width: 20%; }
   .btn_base:hover, .btn_inactive:hover {
     color: grey;
     border-color: grey;
@@ -73,7 +85,7 @@ html {
   font-weight: 400;
   padding: 0px 30px; }
 
-.link_hover:hoverhover {
+.link_hover:hover:hover {
   color: white;
   font-weight: 600; }
 
@@ -135,7 +147,7 @@ h3 {
   font-size: 0.8rem;
   line-height: 1.4rem;
   font-weight: 400;
-  margin: 0 0 10px 0; }
+  margin: 0 0 30px 0; }
 
 #alineacion_titulo_costado {
   display: flex; }
