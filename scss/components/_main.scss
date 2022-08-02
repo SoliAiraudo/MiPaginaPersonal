@@ -14,8 +14,7 @@
    font-size: 1.2rem;
    line-height: 1,5rem;
    font-weight: 600;
-   padding: 0px 20px 10px 10px;
-   margin: 60px 20px 20px 30px;    
+   margin: 60px 20px 30px 40px;    
 }
 
 h3{
@@ -24,6 +23,15 @@ h3{
    font-size: 1.4rem;
    line-height: 1,8rem;
    font-weight: 400;  
+}
+
+.h4{
+   color: black;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 1rem;
+   line-height: 1.4rem;
+   font-weight: 400; 
+   margin: 20px 0 10px 40px; 
 }
 
 #h4{
@@ -100,6 +108,33 @@ h3{
    font-weight: 400; 
    align-items: none;
 }
+
+/*----estilos de las barras de progreso----*/
+
+.progress_style{
+   display: flex;
+   height: 1rem;
+   overflow: hidden;
+   font-size: .75rem;
+   background-color: #e0e0e0;
+   width: 91%;
+   margin: 0 40px;
+   color: grey;
+}
+
+.progress-bar {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   overflow: hidden;
+   color: #fff;
+   text-align: center;
+   white-space: nowrap;
+   background-color: #b9b9b9;
+   transition: width .6s ease;
+}
+
+
 
 
 /*----transformaciones----*/
