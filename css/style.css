@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   font-size: 62,5%; }
 
@@ -131,7 +132,7 @@ html {
   font-size: 1.2rem;
   line-height: 1,5rem;
   font-weight: 600;
-  margin: 60px 20px 30px 40px; }
+  margin: 90px 20px 30px 40px; }
 
 h3 {
   color: white;
@@ -201,7 +202,7 @@ h3 {
   list-style: none; }
 
 #box_desplegable {
-  list-style: circle;
+  list-style: none;
   text-decoration: none;
   display: inline-block;
   display: flex;
@@ -235,6 +236,40 @@ h3 {
   white-space: nowrap;
   background-color: #b9b9b9;
   transition: width .6s ease; }
+
+/*-----Estilos de párrafos para exp.lab-----*/
+.text_box {
+  margin: 20px 0px 20px 40px;
+  width: 100%; }
+
+.titulo_exp {
+  padding: 0px 240px 5px 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0;
+  color: black; }
+
+.cargo {
+  padding: 5px 0 0 0;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0;
+  color: black; }
+
+.detalle {
+  padding: 5px 0 0 0;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0;
+  font-style: italic;
+  color: black; }
+
+.año {
+  padding: 5px 0 0 0;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0 0 30px 0;
+  color: black; }
 
 /*----transformaciones----*/
 .transform:hover {
@@ -294,6 +329,26 @@ h3 {
   .progress_style {
     width: 100%;
     margin: 10px 0px 30px 0; } }
+
+@media screen and (min-width: 600px) {
+  .expLab_box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%; } }
+
+@media screen and (min-width: 600px) {
+  .text_box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 45%;
+    margin: 20px 5px 20px 40px;
+    padding: 0 20px 0 0; } }
+
+@media screen and (min-width: 600px) {
+  .titulo_exp {
+    padding: 0px 180px 5px 0; } }
 
 /*@media screen and (max-width: 600px) {    
     .pie{
