@@ -23,6 +23,44 @@
     }
     }
 
+@media screen and (min-width: 600px) {
+    .progress_box{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    width: 100%;
+    }
+    }
+
+@media screen and (min-width: 600px) {
+    .progress_box_ind{
+    width: 25%;
+    margin: 0 0 0 40px;
+    }
+    }
+
+@media screen and (min-width: 600px) {
+    .progress_box_ind_2{
+    width: 25%;
+    margin: 0 0 0 90px;
+    }
+    }
+
+@media screen and (min-width: 600px) {
+    .h4{
+    line-height: 1.4rem;
+    font-weight: 400; 
+    margin: 0; 
+    }
+    }
+
+@media screen and (min-width: 600px) {
+    .progress_style{
+    width: 100%;
+    margin: 10px 0px 30px 0;
+    }
+    }
+
 /*@media screen and (max-width: 600px) {    
     .pie{
         text-align: left;
