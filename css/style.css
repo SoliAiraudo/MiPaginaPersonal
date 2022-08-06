@@ -41,8 +41,8 @@ html {
 .btn_base, .btn_inactive {
   color: black;
   background: white;
-  padding: 20px 20px;
-  margin: 30px 0;
+  padding: 20px 80px;
+  margin: 30px 0 0 40px;
   height: 30px;
   border-style: solid;
   border-color: black;
@@ -103,7 +103,7 @@ html {
 .pie__icon--sm {
   padding: 20px 20px 20px 0px;
   left: 40px;
-  width: 15%; }
+  width: 20%; }
 
 .pie__arrow--sm {
   position: absolute;
@@ -116,6 +116,9 @@ html {
   font-weight: 400;
   padding: 0px;
   margin: 0px; }
+
+.container-fluid {
+  padding: 80px 0 40px 40px; }
 
 #h1_titulos {
   color: black;
@@ -271,6 +274,35 @@ h3 {
   margin: 0 0 30px 0;
   color: black; }
 
+/*-----Estilos de párrafos para input-----*/
+.text_box {
+  margin: 20px 0px 20px 40px;
+  width: 100%; }
+
+.input {
+  padding: 50px 0 0 0;
+  font-size: 1rem;
+  font-weight: 400;
+  color: lightgray;
+  text-decoration: none;
+  border-color: lightgrey;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  width: 90%; }
+
+.input_text {
+  padding: 100px 0 0 0;
+  font-size: 1rem;
+  font-weight: 400;
+  color: lightgrey;
+  text-decoration: none;
+  border-color: lightgrey;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  width: 90%; }
+
 /*----transformaciones----*/
 .transform:hover {
   transform: translate(50px);
@@ -349,16 +381,3 @@ h3 {
 @media screen and (min-width: 600px) {
   .titulo_exp {
     padding: 0px 180px 5px 0; } }
-
-/*@media screen and (max-width: 600px) {    
-    .pie{
-        text-align: left;
-        padding: 40px auto;
-        border-top: solid white 1px;
-        grid-area: footer;
-        width: 100%;
-        background-color: black;
-    }
-    }
-
-*/
