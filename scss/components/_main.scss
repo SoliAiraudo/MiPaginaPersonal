@@ -48,18 +48,17 @@ h3{
    margin: 0 0 30px 0; 
 }
 
+.div_with{
+   width: 100%;
+}
+
 #alineacion_titulo_costado{
    display: flex;
 }
 
-#titulo_costado{
-   grid-area: barra;
-   background-color: white;
-   margin: 20px 0 50px 0;
-   margin-left: auto;
-   padding: 20px;
-   position: absolute;
-   size: 40%;
+.titulo_costado{
+      height: fit-content;
+      margin: -30px 0 0 0;
 }
 
 #presentacion__text--grey{
@@ -148,7 +147,7 @@ h3{
 }
 
 .titulo_exp{
-   padding: 0px 240px 5px 0;
+   padding: 0px 5px 5px 0;
    font-size: 1.1rem;
    font-weight: 600;
    margin: 0;
@@ -224,7 +223,8 @@ h3{
 }
 
 #scale:hover{
-    transform: scale(1.5);
+    transform: scale(1.1);
+    transition: transform 0.5s;
 }
 
 .translate:hover{
