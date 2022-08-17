@@ -61,6 +61,26 @@ html {
   color: grey;
   border-color: grey; }
 
+.btn_center_flex {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center; }
+
+.btn_center {
+  color: black;
+  background: white;
+  padding: 10px 60px;
+  margin: 20px 0 50px 0;
+  border-style: solid;
+  border-color: black;
+  text-decoration: none; }
+  .btn_center:hover {
+    color: grey;
+    border-color: grey;
+    line-height: 2rem;
+    cursor: pointer; }
+
 #navbar-darck {
   background-color: black; }
 

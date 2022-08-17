@@ -24,3 +24,28 @@
     color: grey;
     border-color: grey;
  }
+
+.btn_center_flex{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  
+}
+
+.btn_center{
+   color: rgb(0, 0, 0);
+   background: white;
+   padding: 10px 60px;
+   margin: 20px 0 50px 0;
+   border-style: solid;
+   border-color: black;
+   text-decoration: none;
+   
+   &:hover{
+      color: grey;
+      border-color: grey;
+      line-height: 2rem;
+      cursor: pointer;
+   }
+}
