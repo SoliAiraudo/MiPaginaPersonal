@@ -83,6 +83,10 @@ h3{
    margin: 10px 50px;
 }
 
+.accordion-button:not(.collapsed){
+   color: black;
+}
+
 #titulo{
    display: inline-block;
    display: flex;
