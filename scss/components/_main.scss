@@ -64,7 +64,7 @@ h3{
 #presentacion__text--grey{
    color:white;
    padding: 20px 10px 20px 10px;
-   margin: 5px 20px 5px 30px;
+   margin: 10px 20px 40px 30px;
    color:rgb(0, 0, 0);
    font-family: Arial, Helvetica, sans-serif;
    font-size: 1.2rem;
@@ -186,7 +186,7 @@ h3{
 /*-----Estilos de párrafos para input-----*/
 
 .text_box{
-   margin: 20px 0px 20px 40px;
+   margin: 40px 0px 20px 40px;
    width: 100%;
 }
 
@@ -216,6 +216,15 @@ h3{
       width: 90%;
       }
 
+/*----estilo de imagen de información----*/
+
+.img_contacto{
+   margin: 30px 0 30px 28px;
+}
+
+.img_flex{
+   width: 100%;
+}
 
 /*----transformaciones----*/
 
