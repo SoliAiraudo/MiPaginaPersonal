@@ -1,8 +1,8 @@
 # Mi página personal
 ###### [novedades](#new)
-###### [github pages]
-###### [netlify]([https://gentle-dusk-129181.netlify.app/](https://unique-lily-bdcacd.netlify.app/)
-###### [Github repositorio]([https://ellanos.000webhostapp.com/](https://github.com/SoliAiraudo/MiPaginaPersonal.git)
+###### [github pages](https://emallanos00.github.io/SucusTienda-Llanos/Sucusstore-llanos/index.html)
+###### [netlify](https://unique-lily-bdcacd.netlify.app/)
+###### [Github repositorio](https://github.com/SoliAiraudo/MiPaginaPersonal.git)
 ## Introducción
 El proyecto consiste en un sitio para mi perfil como diseñadora gráfica. Conformado por 5 páginas: index, proyectos, servicios, quién soy, contacto. Cada página tiene información concisa y precisa.
 
@@ -25,7 +25,7 @@ La página más completa de todo el proyecto, se trata de una breve descripción
 Si ya conocés cómo trabajo, podés dirigirte directamente a mis datos para poder conectar conmigo.
 
 ## Herramientas utilizadas
-La utilización de Bootstrap y SASS me permitió simplificar y limpiar el código. 
+La utilización de Bootstrap y SASS me permitió simplificar y limpiar el código, además fueron fundamentales para agilizar los procesos de generación de código. 
 
 ## Reporte de errores
 Si observás algún error o simplemente querés hacer alguna observación, escribime a mi correo: solana.airaudo@gmail.com.
