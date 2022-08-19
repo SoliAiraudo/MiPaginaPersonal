@@ -1,6 +1,6 @@
 # Mi página personal
 ###### [novedades](#new)
-###### [github pages](https://emallanos00.github.io/SucusTienda-Llanos/Sucusstore-llanos/index.html)
+###### [github pages](https://soliairaudo.github.io/MiPaginaPersonal/)
 ###### [netlify](https://unique-lily-bdcacd.netlify.app/)
 ###### [Github repositorio](https://github.com/SoliAiraudo/MiPaginaPersonal.git)
 ## Introducción
