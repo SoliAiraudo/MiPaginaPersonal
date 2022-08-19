@@ -4,7 +4,7 @@
 ###### [netlify](https://unique-lily-bdcacd.netlify.app/)
 ###### [Github repositorio](https://github.com/SoliAiraudo/MiPaginaPersonal.git)
 ## Introducción
-El proyecto consiste en un sitio para mi perfil como diseñadora gráfica. Conformado por 5 páginas: index, proyectos, servicios, quién soy, contacto. Cada página tiene información concisa y precisa.
+El proyecto consiste en un sitio para mi perfil como diseñadora gráfica. Conformado por 5 páginas: index, proyectos, servicios, quién soy, contacto + ES|EN (page404). Cada página tiene información concisa y precisa.
 
 Este es mi primer trabajo de desarrollo web. En los útlimos años me estuve especializando como diseñadora ux/ui, por lo que conocer la otra cara de la moneda me permitió obtener otras herramientas que fortalecen mis conocimientos. 
 
